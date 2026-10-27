@@ -1,0 +1,14 @@
+name = "cse271-a3"
+version = "0.1.0"
+defaultTargets = ["AeCont", "ae-cont"]
+testDriver = "Tests"
+
+[[lean_lib]]
+name = "AeCont"
+
+[[lean_lib]]
+name = "Tests"
+
+[[lean_exe]]
+name = "ae-cont"
+root = "Main"
